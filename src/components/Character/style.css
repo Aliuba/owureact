@@ -1,0 +1,11 @@
+.character {
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+}
+.image {
+    display: block;
+}
+img {
+    width: 200px;
+}
