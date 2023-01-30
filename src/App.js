@@ -1,15 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
-import Simpsons from "./components/Simpsons/Simpsons";
-import Characters from "./components/Characters/Characters";
+import {Posts} from "./components/Posts/Posts";
+import {Launches} from "./components/launches/Launches";
+
 
 function App() {
-  return (
-    <div >
-     {/*<Simpsons/>*/}
-        <Characters/>
-    </div>
-  );
+    return (
+        <div>
+
+            {/*<Posts/>*/}
+            <Launches/>
+        </div>
+    );
 }
 
 export default App;
